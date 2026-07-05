@@ -1,0 +1,38 @@
+[
+  {
+    "id": "animal-husbandry",
+    "order": 1,
+    "icon": "paw",
+    "title": "Animal Husbandry",
+    "ghostTag": "pl-animal-husbandry",
+    "color": "#D4A843",
+    "description": "Livestock policy, cattle development, indigenous breed protection, and animal welfare."
+  },
+  {
+    "id": "dairy",
+    "order": 2,
+    "icon": "milk",
+    "title": "Dairy",
+    "ghostTag": "pl-dairy",
+    "color": "#3B82F6",
+    "description": "Milk production, cooperative dairying, value chains, and procurement reform."
+  },
+  {
+    "id": "fisheries",
+    "order": 3,
+    "icon": "fish",
+    "title": "Fisheries",
+    "ghostTag": "pl-fisheries",
+    "color": "#10B981",
+    "description": "Cold-water fisheries, aquaculture, livelihood programmes, and trout development."
+  },
+  {
+    "id": "elections",
+    "order": 4,
+    "icon": "vote",
+    "title": "Elections",
+    "ghostTag": "pl-elections",
+    "color": "#A855F7",
+    "description": "Electoral administration, voter outreach, technology, and process integrity."
+  }
+]

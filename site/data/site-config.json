@@ -1,0 +1,27 @@
+{
+  "maintenanceMode": false,
+  "maintenanceMessage": "We are working on something great. Back soon.",
+  "maintenanceSubtext": "Thank you for your patience.",
+  "updatedAt": "2026-05-02T13:48:00.858Z",
+  "theme": {
+    "name": "Navy & Gold",
+    "navy": "#0F1A2E",
+    "navyLight": "#1B2A4A",
+    "navyMid": "#243654",
+    "gold": "#D4A843",
+    "goldLight": "#E8C87A",
+    "goldPale": "#FDF6E3",
+    "warmWhite": "#FAFAF8",
+    "charcoal": "#1C1917",
+    "textBody": "#44403C",
+    "cream": "#F5F2ED",
+    "creamDark": "#EDE9E3"
+  },
+  "sheetsUrl": "https://docs.google.com/spreadsheets/d/12l4pZmrj5FZLOylW8QW_adSCoAWulDVGzVZba9S4k30/edit?gid=0#gid=0",
+  "sheetsApiKey": "AIzaSyB6XcUgouA-PpCU32ex-Q3Y2GWZFtX2wv4",
+  "weightSheetId": "1niz09RgZ14T23j0j4k4sfajNPnRGVyywrxwQU49Q6Kg",
+  "runningSheetId": "1FObr5ZJyLVglnMobpTF15vEEm1w2GKc1qmO3v_1Wk1s",
+  "hikingSheetId": "1qIU7gjLsyr-h6ZbiWT6Rrt3S_LJ0EU6_Zwp7yHJc8Rw",
+  "subscribersSheetId": "1ec9my2mMv2gqwBPImjUWLOpSVrcomdPshTm2Dfyse-c",
+  "messagesSheetId": "1YN0Eq0vwBz9-aV_o7CV2juFBkCMWf4pPQosuNYVKBqQ"
+}

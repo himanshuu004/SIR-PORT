@@ -1,0 +1,81 @@
+[
+  {
+    "id": "ai-fundamentals",
+    "order": 1,
+    "icon": "01",
+    "title": "AI Fundamentals",
+    "tagline": "What AI actually is — no jargon, no prerequisites",
+    "color": "#3B82F6",
+    "description": "Start from absolute zero — but don't stay there long. By the end of the first lesson, you'll have used an AI tool. We cover what AI is, how it works, and what it can do for you, with hands-on exercises in every post.",
+    "ghostTag": "lc-ai-fundamentals",
+    "deepDive": {
+      "text": "Want the full history?",
+      "link": "/insights/ancient-dreams-thinking-machines",
+      "label": "Read: From Ancient Dreams to Thinking Machines"
+    },
+    "videos": [
+      { "title": "But what is a neural network?", "author": "3Blue1Brown", "duration": "19 min", "url": "https://youtube.com/watch?v=aircAruvnKk", "source": "external" },
+      { "title": "Machine learning explained in 100 seconds", "author": "Fireship", "duration": "2 min", "url": "https://youtube.com/watch?v=PeMlggyqz0Y", "source": "external" }
+    ]
+  },
+  {
+    "id": "applied-ai",
+    "order": 2,
+    "icon": "02",
+    "title": "Applied AI",
+    "tagline": "Using AI tools in your work and life — today",
+    "color": "#D4A843",
+    "description": "You don't need to build AI to use it well. Learn to use ChatGPT, Claude, Copilot, and other tools effectively — for writing, research, analysis, and decision-making. Practical, hands-on, no code required.",
+    "ghostTag": "lc-applied-ai",
+    "deepDive": null,
+    "videos": [
+      { "title": "How to use AI as a thinking tool", "author": "Dr. Purushottam", "duration": "18 min", "url": "#", "source": "own" }
+    ]
+  },
+  {
+    "id": "agentic-ai",
+    "order": 3,
+    "icon": "03",
+    "title": "Agentic AI",
+    "tagline": "When AI doesn't just answer — it acts",
+    "color": "#8B5CF6",
+    "description": "The frontier of AI: systems that plan, execute, use tools, and complete multi-step tasks autonomously. Understand what agents are, how they work, and what they mean for governance, business, and society.",
+    "ghostTag": "lc-agentic-ai",
+    "deepDive": null,
+    "videos": []
+  },
+  {
+    "id": "machine-learning",
+    "order": 4,
+    "icon": "04",
+    "title": "Machine Learning",
+    "tagline": "The math and intuition behind how machines learn",
+    "color": "#E8593C",
+    "description": "Go deeper — but always with a practical anchor. Every concept is taught through a real problem: predicting crop yields, classifying documents, spotting patterns in data. You'll build working models, not just read about them.",
+    "ghostTag": "lc-machine-learning",
+    "deepDive": {
+      "text": "Want the mathematics?",
+      "link": "/insights/markov-brain",
+      "label": "Read: The Markov Brain in Mind & Machine"
+    },
+    "videos": [
+      { "title": "The spelled-out intro to neural networks", "author": "Andrej Karpathy", "duration": "2h 25m", "url": "https://youtube.com/watch?v=VMj-3S1tku0", "source": "external" },
+      { "title": "Attention is all you need — visualized", "author": "3Blue1Brown", "duration": "26 min", "url": "https://youtube.com/watch?v=eMlx5fFNoYc", "source": "external" }
+    ]
+  },
+  {
+    "id": "python-from-zero",
+    "order": 5,
+    "icon": "05",
+    "title": "Python from Zero",
+    "tagline": "Your first programming language — at any age",
+    "color": "#0EA5E9",
+    "description": "You're 40, or 50, or 60 — and you've never written a line of code. Perfect. You'll write your first working program in 10 minutes, not after 10 chapters. Every lesson produces something real: a script that renames your files, a tool that summarizes a PDF, a bot that sends you daily weather updates.",
+    "ghostTag": "lc-python",
+    "deepDive": null,
+    "videos": [
+      { "title": "Python for beginners (full course)", "author": "Dr. Purushottam", "duration": "45 min", "url": "#", "source": "own" },
+      { "title": "Learn Python in 1 hour", "author": "Programming with Mosh", "duration": "1h", "url": "https://youtube.com/watch?v=kqtD5dpn9C8", "source": "external" }
+    ]
+  }
+]

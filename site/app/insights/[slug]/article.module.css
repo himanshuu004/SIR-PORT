@@ -1,0 +1,492 @@
+/* ── Reading progress ── */
+.progressBar {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 99;
+  background: rgba(20,184,166,0.12);
+}
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  transition: width 0.15s ease-out;
+}
+
+/* ── Hero ── */
+.hero {
+  background: var(--grad-navy);
+  position: relative;
+  overflow: hidden;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+.heroInner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.breadcrumb a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: color var(--t-fast);
+}
+.breadcrumb a:hover { color: var(--gold-light); }
+.breadcrumb span { color: rgba(255,255,255,0.3); }
+
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.875rem, 4.2vw, 2.875rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+  margin: 0 0 20px;
+}
+
+.excerpt {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.52);
+  margin: 0 0 32px;
+  max-width: 620px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.metaAvatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--grad-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--navy);
+  flex-shrink: 0;
+}
+.metaName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #fff;
+}
+.metaDate {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.38);
+  margin-top: 2px;
+}
+
+/* ── Tags row ── */
+.tagsRow {
+  background: var(--warm-white);
+  border-bottom: 1px solid rgba(28,25,23,0.06);
+  padding: 14px 0;
+}
+.tagsInner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.tag {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--cream);
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.04em;
+}
+
+/* ── Article ── */
+.article {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px var(--container-pad) 80px;
+}
+
+/* ── Ghost HTML body styles ── */
+.body {
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.88;
+  color: var(--text-body);
+  letter-spacing: 0.005em;
+}
+
+.body p { margin: 0 0 1.5em; }
+
+.body h2 {
+  font-family: var(--font-serif);
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  margin: 3rem 0 1.25rem;
+}
+
+.body h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  margin: 2.5rem 0 1rem;
+}
+
+.body blockquote {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--charcoal);
+  border-left: 3px solid var(--gold);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  line-height: 1.65;
+}
+
+.body ul, .body ol {
+  margin: 0 0 1.5em 1.5em;
+}
+.body li { margin-bottom: 0.5em; }
+
+.body a {
+  /* WCAG AA-passing teal for small body text (5.3:1 on white). The
+     lighter --gold (#14B8A6) hits only 3.1:1 which fails AA. */
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: rgba(15, 118, 110, 0.4);
+  text-underline-offset: 2px;
+  transition: color var(--t-fast), text-decoration-color var(--t-fast);
+}
+.body a:hover {
+  color: var(--link-hover);
+  text-decoration-color: var(--link-hover);
+}
+
+.body img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  margin: 2rem 0;
+}
+
+.body figure { margin: 2rem 0; }
+.body figcaption {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.body pre {
+  background: var(--navy);
+  color: rgba(255,255,255,0.85);
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin: 2rem 0;
+}
+
+.body code {
+  font-family: monospace;
+  font-size: 0.875em;
+  background: var(--cream);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--charcoal);
+}
+
+.body pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+.body hr {
+  border: none;
+  border-top: 1px solid rgba(28,25,23,0.08);
+  margin: 3rem 0;
+}
+
+/* ── Share row (horizontal — top + bottom of article) ── */
+.shareRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 24px 0;
+  border-top: 1px solid rgba(28,25,23,0.07);
+  border-bottom: 1px solid rgba(28,25,23,0.07);
+  margin: 16px 0;
+}
+.shareLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-right: 4px;
+}
+
+/* Branded round icon button — used by both horizontal rows + the
+   vertical sticky bar. Each button gets its own --brand-color CSS
+   variable inline (e.g. X = #000, LinkedIn = #0A66C2, WhatsApp =
+   #25D366, Copy = --gold) which drives both the icon color at rest
+   and the hover tint. BrandIcon uses `fill: currentColor` so it
+   inherits the button's color naturally. */
+.shareIconBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(28,25,23,0.10);
+  background: #fff;
+  color: var(--brand-color, var(--text-muted));
+  cursor: pointer;
+  text-decoration: none;
+  transition: background var(--t-fast), border-color var(--t-fast), transform var(--t-fast);
+}
+.shareIconBtn:hover,
+.shareIconBtn:focus-visible {
+  background: color-mix(in srgb, var(--brand-color, var(--gold)) 10%, transparent);
+  border-color: color-mix(in srgb, var(--brand-color, var(--gold)) 35%, transparent);
+  transform: translateY(-2px);
+}
+.shareIconBtn:focus-visible {
+  outline: 2px solid var(--brand-color, var(--gold));
+  outline-offset: 3px;
+}
+
+/* ── Sticky vertical share bar (desktop only) ──
+   Floats to the LEFT of the article body using negative-margin trick,
+   then position:sticky keeps it in view as the reader scrolls. */
+.stickyShareBar {
+  position: sticky;
+  top: 120px;
+  float: left;
+  margin-left: -88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 5;
+}
+.stickyShareLabel {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.shareVertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Mutually-exclusive responsive split:
+   • Desktop (≥1101px): sticky side bar visible, bottom horizontal row hidden
+   • Mobile (≤1100px):  sticky bar hidden (no room left of the body),
+                         bottom horizontal row visible as the only share surface
+   Avoids redundancy where both surfaces would show at once. */
+@media (max-width: 1100px) {
+  .stickyShareBar { display: none; }
+}
+@media (min-width: 1101px) {
+  .shareRow { display: none; }
+}
+
+/* ── Author card ── */
+.authorCard {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: var(--cream);
+  border-radius: var(--radius-lg);
+  padding: 32px 36px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.authorAvatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--grad-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy);
+  flex-shrink: 0;
+}
+.authorInfo { flex: 1; min-width: 200px; }
+.authorName {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  margin-bottom: 4px;
+}
+.authorRole {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+.authorBio {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--text-body);
+  margin: 0 0 16px;
+}
+.authorLinks {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.8125rem;
+}
+.authorLinks a {
+  color: var(--gold);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color var(--t-fast);
+}
+.authorLinks a:hover { color: var(--gold-light); }
+.authorLinks span { color: rgba(28,25,23,0.2); }
+
+/* ── Ghost comments widget container ── */
+.comments {
+  margin-top: 48px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+}
+.commentsHeading {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  margin: 0 0 8px;
+  letter-spacing: -0.01em;
+}
+.commentsSubtitle {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0 0 24px;
+}
+.commentsRoot {
+  /* Ghost's comments-ui injects its own styled shadow-DOM tree here,
+     so we don't need much. Just provide breathing room. */
+  min-height: 80px;
+}
+
+/* ── Related posts ("Continue reading") ── */
+.related {
+  margin-top: 32px;
+}
+.relatedHeading {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  margin: 0 0 20px;
+  letter-spacing: -0.01em;
+}
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.relatedCard {
+  display: flex;
+  flex-direction: column;
+  padding: 22px 22px 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-card);
+  text-decoration: none;
+  color: var(--charcoal);
+  transition: transform 0.2s, box-shadow 0.2s;
+  min-height: 180px;
+}
+.relatedCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+}
+.relatedEyebrow {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.relatedReadingTime {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.relatedTitle {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 0 8px;
+  color: var(--charcoal);
+}
+.relatedExcerpt {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-body);
+  margin: 0 0 14px;
+  flex: 1;
+}
+.relatedCta {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  margin-top: auto;
+}
+@media (max-width: 860px) {
+  .relatedGrid { grid-template-columns: 1fr; }
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .heroInner { padding-top: 8px; }
+  .title { font-size: 1.75rem; }
+  .authorCard { padding: 24px 20px; }
+  .shareRow { gap: 8px; }
+}

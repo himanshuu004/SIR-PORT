@@ -1,0 +1,71 @@
+[
+  {
+    "id": "nep2020",
+    "title": "Role in National Education Policy 2020",
+    "period": "2019–2021",
+    "role": "Assisted in policy drafting and scenario planning",
+    "description": "As Private Secretary to the Education Minister, contributed to drafting India's most comprehensive education reform in 34 years affecting 250 million students.",
+    "metrics": [
+      { "value": "250M", "label": "Students impacted" },
+      { "value": "34 yrs", "label": "Since last reform" }
+    ],
+    "color": "#3B82F6",
+    "icon": "📜",
+    "order": 1
+  },
+  {
+    "id": "kedarnath",
+    "title": "Handling Kedarnath Disaster",
+    "period": "June–August 2013",
+    "role": "Relief Commissioner",
+    "description": "Closely involved in relief and recovery efforts in disaster-affected areas — rescuing stranded individuals, ensuring the delivery of essential supplies, and coordinating logistics with the Air Force and local transport networks for evacuation. Helped design response plans for affected communities and played a key role in reopening access routes, including surveying what is now the present trek route to Kedarnath.",
+    "metrics": [
+      { "value": "2013", "label": "Disaster year" }
+    ],
+    "color": "#E8593C",
+    "icon": "🏔",
+    "order": 2
+  },
+  {
+    "id": "rte2500",
+    "title": "Enrolling 2,500 Students Under RTE Act",
+    "period": "2012–2014",
+    "role": "District Magistrate — Udham Singh Nagar & Dehradun",
+    "description": "At a time when the scheme was newly introduced, many private schools were hesitant to enrol children from disadvantaged backgrounds. Worked closely with institutions to build trust and ensure compliance, enabling 2,500 students to gain admission into reputed private schools. Many of these children are likely now studying in leading colleges — their life trajectories fundamentally altered by access to quality education.",
+    "metrics": [
+      { "value": "2,500", "label": "Students enrolled" },
+      { "value": "2", "label": "Districts" }
+    ],
+    "color": "#8B5CF6",
+    "icon": "🎓",
+    "order": 3
+  },
+  {
+    "id": "itbp-mou",
+    "title": "Forging MoU Between ITBP and Government of Uttarakhand",
+    "period": "2023",
+    "role": "Secretary, Animal Husbandry; Administrator, Uttarakhand Sheep & Goat Farmers Cooperative",
+    "description": "Led the execution of an MoU to supply agricultural and livestock produce directly to paramilitary personnel from villages located around their deployment areas. Created a direct procurement channel, ensuring fair prices for farmers, eliminating middlemen, and improving the quality and reliability of supplies for paramilitary personnel.",
+    "metrics": [
+      { "value": "₹150M", "label": "Transferred to farmers" },
+      { "value": "~500", "label": "Farmers benefited" }
+    ],
+    "color": "#10B981",
+    "icon": "🤝",
+    "order": 4
+  },
+  {
+    "id": "iti-recruitment",
+    "title": "Recruitment of Instructors in ITI",
+    "period": "2010",
+    "role": "Director, Industrial Training Institutes (ITI)",
+    "description": "After a prolonged gap of 15 years — and notably, the first such exercise since the formation of Uttarakhand — led the recruitment of 110 instructors across 95 ITIs. Implemented a fully transparent, computerised recruitment process that ensured fairness, speed, and credibility. The initiative filled critical gaps and strengthened the foundation of technical education and workforce readiness in the state.",
+    "metrics": [
+      { "value": "110", "label": "Instructors recruited" },
+      { "value": "95", "label": "ITIs covered" }
+    ],
+    "color": "#D4A843",
+    "icon": "🏗",
+    "order": 5
+  }
+]

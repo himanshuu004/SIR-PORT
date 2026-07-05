@@ -1,0 +1,1471 @@
+[
+  {
+    "id": "6a024c19aceb8f0001e9c9aa",
+    "slug": "why-too-much-discipline-can-quietly-destroy-your-success",
+    "title": "Why Too Much Discipline Can Quietly Destroy Your Success",
+    "existing": [
+      "ashbeys-law",
+      "atchley-optimal-dynamics",
+      "claude-shannon",
+      "free-energy-principle",
+      "information-theory",
+      "karl-friston",
+      "law-of-requisite-variety",
+      "mind-machine",
+      "mm-mind"
+    ],
+    "final": [
+      "success-paradox",
+      "ashbys-law",
+      "atchley-dynamics",
+      "free-energy-principle",
+      "mm-mind",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69f8c10c64fad00001a6a635",
+    "slug": "how-do-you-preserve-a-message-across-millennia",
+    "title": "How Do You Preserve a Message Across Millennia?",
+    "existing": [
+      "information-theory",
+      "mind-machine",
+      "mm-machine",
+      "philosophy",
+      "philosophy-2",
+      "vedas"
+    ],
+    "final": [
+      "information-theory",
+      "vedas",
+      "claude-shannon",
+      "error-correction",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69f373408997a400019c6281",
+    "slug": "you-are-not-alone-you-were-decoded",
+    "title": "You Are Not Alone. You were Decoded",
+    "existing": [
+      "mind-machine",
+      "mm-machine"
+    ],
+    "final": [
+      "information-theory",
+      "loneliness",
+      "mens-mental-health",
+      "claude-shannon",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef356be62a52000142cf05",
+    "slug": "the-llm-wiki-for-governments-working-primarily-with-english-language-files",
+    "title": "The LLM Wiki for Governments Working Primarily with English-Language Files",
+    "existing": [
+      "mind-machine",
+      "mm-machine"
+    ],
+    "final": [
+      "llm-wiki",
+      "andrej-karpathy",
+      "governance",
+      "knowledge-infrastructure",
+      "mm-machine",
+      "mind-machine",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef356ae62a52000142cf00",
+    "slug": "the-parasite-in-your-mind-how-inception-teaches-us-to-silence-self-doubt-plus-one-5-minute-daily-fix",
+    "title": "The Parasite in Your Mind: How Inception Teaches Us to Silence Self-Doubt (Plus One 5-Minute Daily Fix)",
+    "existing": [
+      "mind-machine",
+      "mm-mind",
+      "personal"
+    ],
+    "final": [
+      "inception",
+      "self-doubt",
+      "inner-critic",
+      "daily-fix",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3569e62a52000142cefb",
+    "slug": "the-complexity-trap-why-bigger-isnt-always-better",
+    "title": "The Complexity Trap: Why Bigger Isn't Always Better",
+    "existing": [
+      "mind-machine",
+      "mm-machine",
+      "personal"
+    ],
+    "final": [
+      "joseph-tainter",
+      "complexity",
+      "ai-limits",
+      "civilizational-collapse",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3569e62a52000142cef6",
+    "slug": "the-serenity-prayer-is-a-math-equation-and-your-brain-already-knows-it",
+    "title": "The Serenity Prayer Is a Math Equation (And Your Brain Already Knows It)",
+    "existing": [
+      "mind-machine",
+      "mm-mind",
+      "personal"
+    ],
+    "final": [
+      "markov-chain",
+      "serenity-prayer",
+      "habits",
+      "willpower",
+      "mm-mind",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3568e62a52000142cef1",
+    "slug": "ai-and-why-its-growth-will-eventually-slow-down",
+    "title": "AI and Why Its Growth Will Eventually Slow Down",
+    "existing": [
+      "mind-machine",
+      "mm-machine"
+    ],
+    "final": [
+      "ai-growth",
+      "s-curve",
+      "biological-limits",
+      "sigmoid",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3567e62a52000142ceec",
+    "slug": "when-the-mirror-speaks-the-barnum-effect",
+    "title": "When the Mirror Speaks: The Barnum Effect",
+    "existing": [
+      "mind-machine",
+      "mm-mind"
+    ],
+    "final": [
+      "barnum-effect",
+      "cognitive-bias",
+      "self-perception",
+      "p-t-barnum",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3566e62a52000142cee4",
+    "slug": "selection-patterns-and-economic-variables-in-the-civil-services-examination-a-probabilistic-assessment-of-service-allocations-and-opportunity-costs-2021-2024",
+    "title": "Selection Patterns and Economic Variables in the Civil Services Examination: A Probabilistic Assessment of Service Allocations and Opportunity Costs (2021\u20132024)",
+    "existing": [
+      "personal",
+      "pl-elections",
+      "policy-lab",
+      "upsc"
+    ],
+    "final": [
+      "upsc",
+      "civil-services",
+      "probabilistic-analysis",
+      "opportunity-cost",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef3565e62a52000142ced8",
+    "slug": "beyond-the-fear-how-interstellars-greatest-scene-proves-ai-is-our-greatest-partner",
+    "title": "Beyond the Fear: How Interstellar\u2019s Greatest Scene Proves AI is Our Greatest Partner",
+    "existing": [
+      "ai",
+      "christopher-nolan",
+      "interstellar",
+      "mind-machine",
+      "mm-machine"
+    ],
+    "final": [
+      "interstellar",
+      "christopher-nolan",
+      "tars",
+      "ai-partnership",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3564e62a52000142cecd",
+    "slug": "finding-meaning-when-the-honey-loses-its-sweetness-tolstoy-the-well-and-choosing-your-own-path",
+    "title": "Finding Meaning When the Honey Loses Its Sweetness: Tolstoy, the Well, and Choosing Your Own Path",
+    "existing": [
+      "albert-camus",
+      "jiddu-krishnamurthy",
+      "personal",
+      "philosophy",
+      "sartre"
+    ],
+    "final": [
+      "leo-tolstoy",
+      "albert-camus",
+      "jiddu-krishnamurti",
+      "meaning-of-life",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3563e62a52000142cec8",
+    "slug": "you-shall-know-a-word-and-a-person-by-the-company-they-keep",
+    "title": "You Shall Know a \u201cWord\u201d and a\u00a0 \u201cPerson\u201d by the Company they Keep",
+    "existing": [
+      "mind-machine",
+      "mm-machine"
+    ],
+    "final": [
+      "distributional-hypothesis",
+      "nlp",
+      "word-embeddings",
+      "semantics",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef353be62a52000142ccf0",
+    "slug": "you-shall-know-a-word-and-a-person-by-the-company-they-keep-the-universal-law-of-company",
+    "title": "You Shall Know a \u201cWord\u201d and a \u201cPerson\u201d by the Company they Keep The Universal Law of Company",
+    "existing": [
+      "mind-machine",
+      "mm-machine",
+      "personal"
+    ],
+    "final": [
+      "distributional-hypothesis",
+      "pointwise-mutual-information",
+      "collocation",
+      "social-networks",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3562e62a52000142cec3",
+    "slug": "the-markov-brain-rewiring-brain-using-markov-probabilities",
+    "title": "The Markov Brain: Rewiring brain using Markov probabilities",
+    "existing": [
+      "mind-machine",
+      "mm-mind",
+      "personal"
+    ],
+    "final": [
+      "markov-chain",
+      "neuroscience",
+      "behavior-change",
+      "andrei-markov",
+      "mm-mind",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3561e62a52000142ceb8",
+    "slug": "mono-tasking-in-a-multi-tasking-world",
+    "title": "Mono-tasking in a Multi-tasking world.",
+    "existing": [
+      "mind-machine",
+      "mm-mind",
+      "mono-tasking",
+      "multi-tasking",
+      "personal"
+    ],
+    "final": [
+      "monotasking",
+      "multitasking",
+      "attention",
+      "brain-efficiency",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3560e62a52000142cea7",
+    "slug": "the-either-or-trap-and-how-to-escape-it",
+    "title": "The Either/Or Trap \u2014 And How to Escape It",
+    "existing": [
+      "decision-making",
+      "mcdm",
+      "personal",
+      "regret",
+      "topsis"
+    ],
+    "final": [
+      "soren-kierkegaard",
+      "mcdm",
+      "topsis",
+      "regret-science",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef355fe62a52000142ce9c",
+    "slug": "syllabus-for-linear-algebra",
+    "title": "Syllabus for Linear Algebra",
+    "existing": [
+      "gilbert-strang",
+      "maths",
+      "mind-machine",
+      "mm-machine",
+      "personal"
+    ],
+    "final": [
+      "linear-algebra",
+      "gilbert-strang",
+      "ai-mathematics",
+      "neural-networks",
+      "mm-machine",
+      "mind-machine",
+      "late-compiler",
+      "lc-machine-learning"
+    ]
+  },
+  {
+    "id": "69ef355ee62a52000142ce97",
+    "slug": "from-ancient-dreamsto-thinking-machines",
+    "title": "From\u00a0Ancient Dreamsto Thinking Machines",
+    "existing": [
+      "mind-machine",
+      "mm-machine"
+    ],
+    "final": [
+      "ai-history",
+      "dartmouth-conference",
+      "expert-systems",
+      "alan-turing",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef355de62a52000142ce92",
+    "slug": "the-infinite-regress-trap-how-asking-why-endlessly-can-actually-set-your-mind-free",
+    "title": "The Infinite Regress Trap: How Asking \"Why?\" Endlessly Can Actually Set Your Mind Free",
+    "existing": [
+      "mind-machine",
+      "mm-mind",
+      "personal",
+      "philosophy"
+    ],
+    "final": [
+      "first-principles",
+      "infinite-regress",
+      "mental-vertigo",
+      "philosophical-inquiry",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef355ce62a52000142ce77",
+    "slug": "the-memory-wall",
+    "title": "The Memory Wall",
+    "existing": [
+      "compute",
+      "memory",
+      "mind-machine",
+      "mm-machine"
+    ],
+    "final": [
+      "memory-wall",
+      "von-neumann",
+      "compute",
+      "hbm",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef355ae62a52000142ce66",
+    "slug": "2880",
+    "title": "Why Do Data Centres Need So Much Power?And How India Is Rising to Meet the Challenge",
+    "existing": [
+      "cloud-computing",
+      "data-centers",
+      "dennard-scaling",
+      "mind-machine",
+      "mm-machine",
+      "power-wall"
+    ],
+    "final": [
+      "data-centres",
+      "dennard-scaling",
+      "power-wall",
+      "ai-infrastructure",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3559e62a52000142ce61",
+    "slug": "two-laws-that-silently-shape-your-digital-life",
+    "title": "Two Laws That Silently Shape Your Digital Life",
+    "existing": [
+      "mind-machine",
+      "philosophy"
+    ],
+    "final": [
+      "moores-law",
+      "amdahls-law",
+      "parallelism",
+      "semiconductor-physics",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3559e62a52000142ce5c",
+    "slug": "ais-secret-weapon-why-india-needs-more-power",
+    "title": "AI's Secret Weapon: Why India  needs more Compute Power",
+    "existing": [
+      "mind-machine",
+      "mm-machine"
+    ],
+    "final": [
+      "rich-sutton",
+      "bitter-lesson",
+      "compute",
+      "india-ai",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3558e62a52000142ce4f",
+    "slug": "will-ai-really-steal-your-job-a-160-year-old-paradox-has-some-surprising-answers",
+    "title": "Will AI Really Steal Your Job? A 160-Year-Old Paradox Has Some Surprising Answers",
+    "existing": [
+      "ai",
+      "jobs",
+      "mind-machine",
+      "mm-machine"
+    ],
+    "final": [
+      "jevons-paradox",
+      "ai-economics",
+      "william-stanley-jevons",
+      "productivity",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3557e62a52000142ce47",
+    "slug": "a-reflection-on-movie-soul",
+    "title": "A Reflection on Movie \u201c Soul\u201d",
+    "existing": [
+      "personal",
+      "philosophy",
+      "soul"
+    ],
+    "final": [
+      "soul-movie",
+      "pixar",
+      "jazz",
+      "joe-gardner",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3556e62a52000142ce39",
+    "slug": "why-your-brain-is-always-one-step-ahead-understanding-lifes-secret-formula",
+    "title": "Why Your Brain is Always One Step Ahead: Understanding Life's Secret Formula",
+    "existing": [
+      "free-energy-principle",
+      "karl-friston",
+      "mind-machine",
+      "mm-mind",
+      "perception",
+      "philosophy"
+    ],
+    "final": [
+      "karl-friston",
+      "free-energy-principle",
+      "predictive-brain",
+      "perception",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3555e62a52000142ce33",
+    "slug": "why-i-choose-pillow-over-pavement-the-neuroscience-of-your-morning-struggle",
+    "title": "Why I Choose \"Pillow Over Pavement\": The Neuroscience of Your Morning Struggle",
+    "existing": [
+      "lisa-feldman-barrett",
+      "mind-machine",
+      "mm-mind",
+      "personal"
+    ],
+    "final": [
+      "lisa-feldman-barrett",
+      "body-budget",
+      "willpower",
+      "decision-fatigue",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3554e62a52000142ce29",
+    "slug": "why-your-brain-chooses-donuts-over-salad-and-its-not-your-fault",
+    "title": "Why Your Brain Chooses Donuts Over Salad (And It's Not Your Fault)",
+    "existing": [
+      "brain",
+      "emotions",
+      "lisa-feldman-barrett",
+      "mind-machine",
+      "mm-mind",
+      "personal"
+    ],
+    "final": [
+      "lisa-feldman-barrett",
+      "evolution",
+      "dopamine",
+      "modern-mismatch",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3553e62a52000142ce1e",
+    "slug": "from-sensation-to-emotion-how-your-brain-constructs-your-feelings-from-the-perspective-of-dr-lisa-feldman-barrett",
+    "title": "From Sensation to Emotion: How Your Brain Constructs Your Feelings - From the perspective of  Dr. Lisa Feldman Barrett.",
+    "existing": [
+      "emotions",
+      "lisa-feldman-barrett",
+      "mind-machine",
+      "mm-mind",
+      "personal"
+    ],
+    "final": [
+      "lisa-feldman-barrett",
+      "constructed-emotion",
+      "interoception",
+      "affect",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3552e62a52000142ce13",
+    "slug": "the-six-stages-of-human-thinking-how-we-evolved-from-living-in-the-moment-to-living-everywhere-but-the-moment",
+    "title": "The Six Stages of Human Thinking: How We Evolved from Living in the Moment to Living Everywhere But the Moment",
+    "existing": [
+      "cognitive-thinking",
+      "mind-machine",
+      "mm-mind",
+      "past-future",
+      "personal"
+    ],
+    "final": [
+      "cognitive-evolution",
+      "present-moment",
+      "mental-time-travel",
+      "human-uniqueness",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3551e62a52000142ce0a",
+    "slug": "the-infinite-opportunity-cost-a-pascalian-call-to-action-for-the-comfort-bound",
+    "title": "The Infinite Opportunity Cost: A Pascalian Call to Action for the Comfort-Bound",
+    "existing": [
+      "blaise-pascal",
+      "infinete-potential",
+      "philosophy"
+    ],
+    "final": [
+      "blaise-pascal",
+      "pascals-wager",
+      "opportunity-cost",
+      "comfort-zone",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3550e62a52000142cdff",
+    "slug": "the-paradox-of-presence-reconciling-the-bhagwat-gita-and-j-krishnamurti",
+    "title": "The Paradox of Presence: Reconciling the Bhagwat Gita and J. Krishnamurti",
+    "existing": [
+      "bhagwat-geetha",
+      "jiddu-krishnamurthy",
+      "philosophy"
+    ],
+    "final": [
+      "bhagavad-gita",
+      "jiddu-krishnamurti",
+      "presence",
+      "non-attachment",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3550e62a52000142cdf0",
+    "slug": "why-we-scroll-the-art-of-choosing-your-distraction",
+    "title": "Why We Scroll: The Art of Choosing Your Distraction",
+    "existing": [
+      "alfred-adler",
+      "blaise-pascal",
+      "divertissement",
+      "mind-machine",
+      "mm-mind",
+      "philosophy",
+      "sigmund-freud"
+    ],
+    "final": [
+      "blaise-pascal",
+      "alfred-adler",
+      "sigmund-freud",
+      "divertissement",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef354fe62a52000142cdeb",
+    "slug": "2721",
+    "title": "The Great Distraction: How Advertisements Became Our Modern Divertissement (and What Pascal Knew All Along)",
+    "existing": [
+      "mind-machine",
+      "mm-mind",
+      "philosophy"
+    ],
+    "final": [
+      "advertising",
+      "blaise-pascal",
+      "divertissement",
+      "attention-economy",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef354ee62a52000142cddd",
+    "slug": "the-void-in-the-machine-navigating-professional-boredom-in-the-age-of-ai",
+    "title": "The Void in the Machine: Navigating Professional Boredom in the Age of AI",
+    "existing": [
+      "blaise-pascal",
+      "boredom",
+      "martin-heidegger",
+      "mind-machine",
+      "mm-machine",
+      "philosophy"
+    ],
+    "final": [
+      "martin-heidegger",
+      "blaise-pascal",
+      "professional-boredom",
+      "ai-age",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef354de62a52000142cdce",
+    "slug": "the-safe-bet-probability-of-existence-of-divine-life-after-death",
+    "title": "The Safe Bet: Probability of existence of Divine/ Life after Death.",
+    "existing": [
+      "apannaka-sutta",
+      "athiesm",
+      "buddhism",
+      "mm-machine",
+      "pascals-wager",
+      "philosophy"
+    ],
+    "final": [
+      "pascals-wager",
+      "apannaka-sutta",
+      "buddhism",
+      "blaise-pascal",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef354ce62a52000142cdc3",
+    "slug": "part-1-2-the-academic-chairs-of-virtue",
+    "title": "Part 1, (2) : THE ACADEMIC CHAIRS OF VIRTUE",
+    "existing": [
+      "academic-chairs-of-virtue",
+      "freiedrich-nietzsche",
+      "philosophy"
+    ],
+    "final": [
+      "friedrich-nietzsche",
+      "zarathustra",
+      "virtue",
+      "academia-critique",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef354be62a52000142cdb4",
+    "slug": "eternal-recurrence-and-infinite-recursion",
+    "title": "Eternal Recurrence and Infinite Recursion",
+    "existing": [
+      "eternal-recurrance",
+      "friedrich-nietzsche",
+      "infinite-recursion",
+      "mind-machine",
+      "mm-machine",
+      "philosophy",
+      "recursion"
+    ],
+    "final": [
+      "friedrich-nietzsche",
+      "eternal-recurrence",
+      "infinite-recursion",
+      "amor-fati",
+      "mm-machine",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef354be62a52000142cda0",
+    "slug": "the-second-chapter-of-the-three-metamorphoses",
+    "title": "The Second Chapter: Of the Three Metamorphoses",
+    "existing": [
+      "child",
+      "friedrich-nietzsche",
+      "lion",
+      "personal",
+      "philosophy",
+      "second-chapter",
+      "the-three-metamorphoses"
+    ],
+    "final": [
+      "friedrich-nietzsche",
+      "three-metamorphoses",
+      "camel-lion-child",
+      "zarathustra",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef354ae62a52000142cd95",
+    "slug": "welcome-to-my-journey-through-thus-spake-zarathustra",
+    "title": "Welcome to My Journey Through\u00a0\"Thus Spake Zarathustra\"",
+    "existing": [
+      "frederich-nietzsche",
+      "philosophy",
+      "ubermensch"
+    ],
+    "final": [
+      "friedrich-nietzsche",
+      "thus-spake-zarathustra",
+      "ubermensch",
+      "grok-reading",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3549e62a52000142cd86",
+    "slug": "from-the-gita-to-existentialism-how-bhagwan-sri-krishna-and-jean-paul-sartre-can-help-you-decide-better",
+    "title": "From the Gita to Existentialism: How Bhagwan Sri Krishna and Jean-Paul Sartre Can Help You Decide Better",
+    "existing": [
+      "bhagwat-gita",
+      "existentialism",
+      "freedom",
+      "jean-paul-sartre",
+      "philosophy"
+    ],
+    "final": [
+      "jean-paul-sartre",
+      "bhagavad-gita",
+      "existentialism",
+      "decision-making",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3548e62a52000142cd78",
+    "slug": "simulation-and-simulacra-living-inside-the-copy",
+    "title": "Simulation and Simulacra: Living Inside the Copy",
+    "existing": [
+      "philosophy",
+      "reality",
+      "simulacra",
+      "simulation"
+    ],
+    "final": [
+      "jean-baudrillard",
+      "simulacra",
+      "the-matrix",
+      "hyperreality",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3547e62a52000142cd6c",
+    "slug": "the-reconciliation-of-schopenhauer-and-camus-finding-light-in-absurdity",
+    "title": "The Reconciliation of Schopenhauer and Camus: Finding Light in Absurdity",
+    "existing": [
+      "albert-camus",
+      "arthur-schopenhuer",
+      "existentialism",
+      "philosophy"
+    ],
+    "final": [
+      "arthur-schopenhauer",
+      "albert-camus",
+      "absurdism",
+      "will-to-live",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3546e62a52000142cd61",
+    "slug": "have-you-ever-experienced-a-meaningful-coincidence-that-felt-like-more-than-chance-synchronicity-explained",
+    "title": "Have you ever experienced a meaningful coincidence that felt like more than chance?- Synchronicity explained.",
+    "existing": [
+      "carl-jung",
+      "philosophy",
+      "synchronocity"
+    ],
+    "final": [
+      "carl-jung",
+      "synchronicity",
+      "meaningful-coincidence",
+      "jungian-psychology",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3546e62a52000142cd5c",
+    "slug": "three-wills-two-systems-when-philosophy-meets-cognitive-science",
+    "title": "Three Wills, Two Systems: When Philosophy Meets Cognitive Science",
+    "existing": [
+      "mind-machine",
+      "mm-mind",
+      "personal"
+    ],
+    "final": [
+      "arthur-schopenhauer",
+      "friedrich-nietzsche",
+      "viktor-frankl",
+      "daniel-kahneman",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3545e62a52000142cd50",
+    "slug": "do-not-try-and-bend-the-spoon-thats-impossible-instead-only-try-to-realize-the-truth-there-is-no-spoon",
+    "title": "\"Do not try and bend the spoon. That's impossible. Instead, only try to realize the truth\u2026 there is no spoon.\"",
+    "existing": [
+      "buddhism",
+      "frederick-nietsche",
+      "matrix",
+      "philosophy"
+    ],
+    "final": [
+      "the-matrix",
+      "friedrich-nietzsche",
+      "buddhism",
+      "ubermensch",
+      "mm-mind",
+      "mind-machine"
+    ]
+  },
+  {
+    "id": "69ef3544e62a52000142cd45",
+    "slug": "white-gold-and-hard-choices-policy-analysis-for-uttarakhands-dairy-future",
+    "title": "\"White Gold and Hard Choices: Policy Analysis for Uttarakhand's Dairy Future\"",
+    "existing": [
+      "animal-husbandry",
+      "cooperative",
+      "cooperative-societies",
+      "dairy",
+      "personal",
+      "pl-dairy",
+      "policy-lab",
+      "stories-through-data",
+      "stories_through_data"
+    ],
+    "final": [
+      "uttarakhand-dairy",
+      "milk-procurement",
+      "cooperative-societies",
+      "stories-through-data",
+      "pl-dairy",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef3543e62a52000142cd3f",
+    "slug": "amor-fati-loving-your-fate",
+    "title": "Amor Fati: Loving Your Fate",
+    "existing": [
+      "frederick-nietsche",
+      "philosophy"
+    ],
+    "final": [
+      "friedrich-nietzsche",
+      "amor-fati",
+      "fate",
+      "acceptance",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3542e62a52000142cd28",
+    "slug": "philosophies-of-arthur-schopenhauer-friedrich-nietzsche-victor-frankl",
+    "title": "Philosophies of Arthur Schopenhauer, Friedrich Nietzsche, Victor Frankl",
+    "existing": [
+      "arthur-schopenhuer",
+      "frederick-nietsche",
+      "philosophy",
+      "victor-frankl",
+      "will-to-live",
+      "will-to-power",
+      "will-to-purpose-meaning"
+    ],
+    "final": [
+      "arthur-schopenhauer",
+      "friedrich-nietzsche",
+      "viktor-frankl",
+      "will-to-meaning",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3541e62a52000142cd1e",
+    "slug": "rene-girards-mimetic-desire-the-hidden-force-behind-indias-competitive-exam-culture",
+    "title": "Ren\u00e9 Girard's Mimetic Desire: The Hidden Force Behind India's Competitive Exam Culture",
+    "existing": [
+      "philosophy",
+      "random-thoughts"
+    ],
+    "final": [
+      "rene-girard",
+      "mimetic-desire",
+      "upsc-culture",
+      "social-imitation",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "69ef3541e62a52000142cd19",
+    "slug": "lesson-plan",
+    "title": "Lesson Plan",
+    "existing": [
+      "mind-machine",
+      "mm-machine",
+      "the-late-compiler"
+    ],
+    "final": [
+      "python",
+      "learning-plan",
+      "ai-curriculum",
+      "beginner-programming",
+      "late-compiler",
+      "lc-python"
+    ]
+  },
+  {
+    "id": "69ef3540e62a52000142cd12",
+    "slug": "learn-python-4-ai-with-me",
+    "title": "Learn Python 4 AI with me",
+    "existing": [
+      "mind-machine",
+      "mm-machine",
+      "the-late-compiler"
+    ],
+    "final": [
+      "python",
+      "ai-learning",
+      "beginner-programming",
+      "public-learning",
+      "late-compiler",
+      "lc-python"
+    ]
+  },
+  {
+    "id": "69ef353fe62a52000142cd0a",
+    "slug": "visualizing-correlation-a-practical-guide",
+    "title": "Visualizing Correlation: A Practical Guide",
+    "existing": [
+      "data",
+      "mind-machine",
+      "mm-machine",
+      "policy-lab"
+    ],
+    "final": [
+      "data-visualization",
+      "correlation",
+      "dairy-data",
+      "chart-design",
+      "mm-machine",
+      "mind-machine",
+      "pl-dairy",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef353ee62a52000142ccff",
+    "slug": "the-banyan-tree-conversation-economics-of-a-better-herd",
+    "title": "The Banyan Tree Conversation: Economics of a Better Herd",
+    "existing": [
+      "et",
+      "personal",
+      "pl-animal-husbandry",
+      "pl-dairy",
+      "policy-lab",
+      "stories_through_data"
+    ],
+    "final": [
+      "embryo-transfer",
+      "sexed-semen",
+      "dairy-breeding",
+      "stories-through-data",
+      "pl-dairy",
+      "pl-animal-husbandry",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef353de62a52000142ccfa",
+    "slug": "strengthening-indias-livestock-sector-through-feed-optimization-a-data-driven-perspective-on-opportunities-in-animal-husbandry",
+    "title": "Strengthening India's Livestock Sector Through Feed Optimization-A Data-Driven Perspective on Opportunities in Animal Husbandry",
+    "existing": [
+      "personal",
+      "pl-animal-husbandry",
+      "policy-lab"
+    ],
+    "final": [
+      "livestock-feed",
+      "nsso-data",
+      "icar",
+      "animal-husbandry-policy",
+      "pl-animal-husbandry",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34fce62a52000142cccc",
+    "slug": "building-bridges-rural-indias-e2-82-b95-lakh-crore-financial-inclusion-opportunity",
+    "title": "Building Bridges: Rural India's \u20b95 Lakh Crore Financial Inclusion Opportunity",
+    "existing": [
+      "personal"
+    ],
+    "final": [
+      "financial-inclusion",
+      "rural-india",
+      "agricultural-households",
+      "financial-literacy",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef353ce62a52000142ccf5",
+    "slug": "building-bridges-rural-indias-e2-82-b95-lakh-crore-financial-inclusion-opportunity-2",
+    "title": "Building Bridges: Rural India's \u20b95 Lakh Crore Financial Inclusion Opportunity",
+    "existing": [
+      "personal"
+    ],
+    "final": [
+      "financial-inclusion",
+      "rural-india",
+      "agricultural-households",
+      "financial-literacy",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34fce62a52000142ccc6",
+    "slug": "the-tale-of-two-loans",
+    "title": "The Tale of Two Loans:",
+    "existing": [
+      "personal",
+      "policy-lab",
+      "stories-through-data"
+    ],
+    "final": [
+      "interest-rates",
+      "home-loans",
+      "inflation",
+      "stories-through-data",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34fbe62a52000142ccc1",
+    "slug": "stories-through-data-week-1-a-families-financial-awakening",
+    "title": "Stories through Data : Week 1 , A Families Financial Awakening.",
+    "existing": [
+      "personal",
+      "policy-lab"
+    ],
+    "final": [
+      "family-finance",
+      "stories-through-data",
+      "household-savings",
+      "rural-finance",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34fae62a52000142ccb9",
+    "slug": "stories-through-data-week-2-credit-card-loans-vs-housing-loans",
+    "title": "Stories through Data : Week 2 , Credit card loans vs Housing Loans",
+    "existing": [
+      "personal",
+      "policy-lab",
+      "stories-through-data"
+    ],
+    "final": [
+      "credit-cards",
+      "housing-loans",
+      "npa",
+      "stories-through-data",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34f4e62a52000142cc73",
+    "slug": "pushpa-harela-festival",
+    "title": "Pushpa Harela Festival",
+    "existing": [
+      "cooperative",
+      "cooperative-societies",
+      "news",
+      "policy-lab"
+    ],
+    "final": [
+      "pushpa-harela",
+      "mpacs",
+      "cooperative-societies",
+      "uttarakhand",
+      "news",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34f3e62a52000142cc6b",
+    "slug": "women-participation-in-mpacs",
+    "title": "Women Participation in MPACS",
+    "existing": [
+      "cooperative",
+      "cooperative-societies",
+      "news",
+      "policy-lab"
+    ],
+    "final": [
+      "women-mpacs",
+      "turmeric-cultivation",
+      "marigold",
+      "mint-cultivation",
+      "news",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34e7e62a52000142cc05",
+    "slug": "increased-demand-for-badri-ghee",
+    "title": "Increased demand for Badri ghee.",
+    "existing": [
+      "animal-husbandry",
+      "news",
+      "pl-dairy",
+      "policy-lab"
+    ],
+    "final": [
+      "badri-cow",
+      "badri-ghee",
+      "amar-ujala",
+      "indigenous-breeds",
+      "pl-dairy",
+      "policy-lab",
+      "news"
+    ]
+  },
+  {
+    "id": "69ef34e6e62a52000142cbff",
+    "slug": "1784",
+    "title": "Statement on increasing Badri cow's milk production.",
+    "existing": [
+      "news",
+      "pl-dairy",
+      "policy-lab"
+    ],
+    "final": [
+      "badri-cow",
+      "milk-production",
+      "amar-ujala",
+      "indigenous-breeds",
+      "pl-dairy",
+      "policy-lab",
+      "news"
+    ]
+  },
+  {
+    "id": "69ef34e5e62a52000142cbf7",
+    "slug": "computerization-of-mpacs",
+    "title": "Computerization of MPACS",
+    "existing": [
+      "cooperative-societies",
+      "mpacs",
+      "policy-lab",
+      "ukcdp"
+    ],
+    "final": [
+      "mpacs-computerization",
+      "ukcdp",
+      "dhan-singh-rawat",
+      "nabard",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34e4e62a52000142cbeb",
+    "slug": "pushpa-harela-festival-celebration-collection-centre-inaugration-at-shyampur-laldhang-mpacs",
+    "title": "Pushpa Harela Festival Celebration & Collection centre inaugration at Shyampur, Laldhang MPACS.",
+    "existing": [
+      "cooperative",
+      "cooperative-societies",
+      "mpacs",
+      "ncdc",
+      "policy-lab",
+      "ukcdp"
+    ],
+    "final": [
+      "mpacs",
+      "ukcdp",
+      "ncdc",
+      "collection-centre",
+      "news",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34e4e62a52000142cbdf",
+    "slug": "meeting-with-secretary-rural-development-government-of-india-on-mission-amrit-sarovar",
+    "title": "Meeting with Secretary, Rural Development, Government of India on \"Mission Amrit Sarovar\"",
+    "existing": [
+      "cooperative-societies",
+      "government-of-uttarakhand",
+      "policy-lab",
+      "rural-development"
+    ],
+    "final": [
+      "mission-amrit-sarovar",
+      "rural-development",
+      "uttarakhand",
+      "official-meeting",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34e3e62a52000142cbcf",
+    "slug": "first-meeting-of-national-level-monitoring-implementation-committee-nlmic-for-computerization-of-pacs-8-07-2022",
+    "title": "First Meeting of \"National Level Monitoring & Implementation Committee\" (NLMIC) for Computerization of PACS: 8-07-2022",
+    "existing": [
+      "cooperative-societies",
+      "nlmic",
+      "pacs",
+      "policy-lab",
+      "software-application",
+      "video-conference"
+    ],
+    "final": [
+      "nlmic",
+      "pacs-computerization",
+      "nabard",
+      "software-application",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34e2e62a52000142cbc2",
+    "slug": "apple-federation-board-meeting5-07-2022",
+    "title": "Apple Federation Board Meeting(5-07-2022)",
+    "existing": [
+      "apple-board",
+      "cooperative-federation",
+      "cooperative-societies",
+      "policy-lab",
+      "ukcdp"
+    ],
+    "final": [
+      "apple-federation",
+      "ukcdp",
+      "apple-cooperatives",
+      "horticulture-board",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34e1e62a52000142cbb0",
+    "slug": "first-meeting-of-nedac-committee-on-livestock-cooperatives-29-06-2022",
+    "title": "First Meeting of NEDAC Committee on Livestock Cooperatives (29-06-2022)",
+    "existing": [
+      "animal-husbandry",
+      "bakraw",
+      "livestock-cooperatives",
+      "meat-on-wheels",
+      "nedac",
+      "pl-animal-husbandry",
+      "policy-lab"
+    ],
+    "final": [
+      "nedac",
+      "livestock-cooperatives",
+      "asia-pacific",
+      "bakraw",
+      "pl-animal-husbandry",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34e0e62a52000142cb99",
+    "slug": "software-demonstration-for-field-level-monitoring-ukcdp-23-june-2022",
+    "title": "Software demonstration for field level monitoring - UKCDP (23 June 2022)",
+    "existing": [
+      "amrit-sarovar",
+      "angling-tourism",
+      "apps",
+      "mis",
+      "policy-lab",
+      "sheep-amp-goat",
+      "software"
+    ],
+    "final": [
+      "ukcdp",
+      "mobile-app",
+      "sheep-and-goat",
+      "fisheries-monitoring",
+      "pl-fisheries",
+      "pl-animal-husbandry",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34e0e62a52000142cb90",
+    "slug": "review-meeting-ukcdp-22-june2022",
+    "title": "Review Meeting - UKCDP (22 June'2022)",
+    "existing": [
+      "goat-milk",
+      "homestay",
+      "policy-lab"
+    ],
+    "final": [
+      "ukcdp",
+      "goat-valley",
+      "sheep-and-goat",
+      "dairy-fishery-review",
+      "pl-fisheries",
+      "pl-dairy",
+      "pl-animal-husbandry",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34dfe62a52000142cb81",
+    "slug": "meeting-regarding-fodder-policy-convergence-animal-husbandry-dairy-13-june2022",
+    "title": "Meeting regarding Fodder Policy & Convergence - Animal Husbandry & Dairy (13 June'2022)",
+    "existing": [
+      "animal-husbandry",
+      "convergence",
+      "dairy",
+      "fodder-policy",
+      "pl-animal-husbandry",
+      "policy-lab"
+    ],
+    "final": [
+      "fodder-policy",
+      "animal-husbandry-dairy",
+      "convergence",
+      "paddy-wheat-procurement",
+      "pl-animal-husbandry",
+      "pl-dairy",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34dee62a52000142cb75",
+    "slug": "homestay-development-through-cooperative-societies-vc-13-june2022",
+    "title": "Homestay Development through cooperative societies - VC (13 June'2022)",
+    "existing": [
+      "cooperative",
+      "homestay",
+      "policy-lab",
+      "ukcdp"
+    ],
+    "final": [
+      "homestay-development",
+      "ukcdp",
+      "kumaon-garhwal",
+      "bakri-cooperative",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34dde62a52000142cb5a",
+    "slug": "vc-with-bankers-on-kcc-application-pendency-13-june2022",
+    "title": "VC with bankers on KCC application pendency (13 June'2022)",
+    "existing": [
+      "animal-husbandry",
+      "application",
+      "bank",
+      "kcc",
+      "kisan-credit-card",
+      "meeting",
+      "policy-lab",
+      "scheme",
+      "video-conference"
+    ],
+    "final": [
+      "kcc",
+      "kisan-credit-card",
+      "bankers-meeting",
+      "animal-husbandry-scheme",
+      "pl-animal-husbandry",
+      "pl-dairy",
+      "policy-lab"
+    ]
+  },
+  {
+    "id": "69ef34dce62a52000142cb44",
+    "slug": "weekly-review-meeting-14-june-2022",
+    "title": "Weekly Review Meeting- Cooperative (14 Jun'2022)",
+    "existing": [
+      "cooperative",
+      "cooperative-societies",
+      "ddu",
+      "meeting",
+      "mpacs",
+      "policy-lab"
+    ],
+    "final": [
+      "mpacs",
+      "ghasiyari-kalyan-yojana",
+      "ddu-kisan-kalyan-yojana",
+      "weekly-review",
+      "policy-lab"
+    ]
+  }
+]

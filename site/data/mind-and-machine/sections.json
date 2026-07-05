@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mind",
+    "order": 1,
+    "icon": "brain",
+    "title": "Mind",
+    "subtitle": "Neuroscience",
+    "ghostTag": "mm-mind",
+    "color": "#8B5CF6",
+    "intro": "My interest in Neuroscience grew from a simple question: how does the Brain — three pounds of soft tissue — produce Thought, Feeling, and Decision? Reading Lisa Feldman Barrett on Constructed Emotion, Karl Friston on the Free-Energy Principle and the Prediction mechanism of the Brain, George Ainslie on Hyperbolic Discounting, the Integrated Information Theory (IIT) of Consciousness proposed by Giulio Tononi, and Anil Seth on Perception convinced me that understanding the Mind is not abstract philosophy but among the most practical inquiries a public servant can undertake. Every Decision we make in Administration sits on top of a particular theory of how minds reason, choose, and forget. The essays below are my notes from that ongoing inquiry."
+  },
+  {
+    "id": "machine",
+    "order": 2,
+    "icon": "cpu",
+    "title": "Machine",
+    "subtitle": "AI · Machine Learning · Computer Science · Information Theory",
+    "ghostTag": "mm-machine",
+    "color": "#3B82F6",
+    "intro": "A disclosure first — I do not hold an engineering degree in computer science. Everything below is an outsider's exploration, driven by curiosity rather than credential. I write to make sense of what I am learning, and to think out loud about what AI, machine learning, and information theory mean for governance, decision-making, and Indian institutions. Reader corrections, sharper framings, and disagreement are all welcome."
+  }
+]

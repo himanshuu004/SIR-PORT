@@ -1,0 +1,106 @@
+/* ============================================================
+   STRUCTURAL TOKENS — spacing, type scale, shadows, radii, transitions.
+   Colours and gradients are injected by layout.js from lib/theme.js
+   so that a single file change updates both JS inline styles and CSS modules.
+   ============================================================ */
+
+:root {
+  /* ── Typography ── */
+  --font-serif: var(--font-playfair, 'Playfair Display'), Georgia, serif;
+  --font-sans:  var(--font-source-sans, 'Source Sans 3'), system-ui, sans-serif;
+
+  /* Type scale */
+  --text-xs:   0.6875rem;  /* 11px */
+  --text-sm:   0.8125rem;  /* 13px */
+  --text-base: 1rem;       /* 16px */
+  --text-md:   1.0625rem;  /* 17px */
+  --text-lg:   1.125rem;   /* 18px */
+  --text-xl:   1.25rem;    /* 20px */
+  --text-2xl:  1.5rem;     /* 24px */
+  --text-3xl:  1.875rem;   /* 30px */
+  --text-4xl:  2.25rem;    /* 36px */
+  --text-hero: clamp(2.25rem, 4.5vw, 3.625rem);
+
+  /* ── Spacing scale ──
+     A 4px-based scale. Names follow Tailwind's `space-N` (where N = px / 4)
+     for familiarity — e.g. --space-4 = 16px. Use these instead of raw px
+     in CSS modules + inline styles. */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-7:  28px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-14: 56px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* Layout spacing (page-level rhythm — preserves the existing API) */
+  --section-y:   clamp(72px, 8vw, 120px);
+  --section-y-sm: clamp(48px, 5vw, 72px);
+  --container:   1120px;
+  --container-pad: clamp(1rem, 4vw, 1.5rem);
+
+  /* ── Neutral grey scale ──
+     For borders, dividers, muted text, disabled surfaces. Use these
+     instead of raw greys like #E5E7EB / #9CA3AF / #F3F4F6. */
+  --neutral-50:  #F9FAFB;
+  --neutral-100: #F3F4F6;
+  --neutral-200: #E5E7EB;
+  --neutral-300: #D1D5DB;
+  --neutral-400: #9CA3AF;
+  --neutral-500: #6B7280;
+  --neutral-600: #57534E;
+  --neutral-700: #44403C;
+  --neutral-800: #292524;
+  --neutral-900: #1C1917;
+
+  /* ── Shadows ── */
+  --shadow-xs:   0 1px 4px rgba(0,0,0,0.05);
+  --shadow-sm:   0 2px 12px rgba(0,0,0,0.06);
+  --shadow-md:   0 8px 32px rgba(0,0,0,0.08);
+  --shadow-lg:   0 20px 60px rgba(0,0,0,0.10);
+  --shadow-xl:   0 32px 80px rgba(0,0,0,0.14);
+  --shadow-gold: 0 8px 32px rgba(20,184,166,0.22);
+  --shadow-card: 0 2px 12px rgba(0,0,0,0.06), 0 0 0 1px rgba(28,25,23,0.06);
+  --shadow-card-hover: 0 16px 48px rgba(0,0,0,0.10), 0 0 0 1px rgba(20,184,166,0.15);
+
+  /* ── Border radius ── */
+  --radius-xs:   4px;
+  --radius-sm:   6px;
+  --radius-button: 8px;   /* buttons + small chips */
+  --radius-input:  10px;  /* form inputs */
+  --radius-md:   12px;
+  --radius-card: 14px;    /* article + listing cards */
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --radius-pill: 999px;
+
+  /* ── Transitions ── */
+  --ease-out:  cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in:   cubic-bezier(0.4, 0, 1, 1);
+  --t-fast:    0.15s;
+  --t-base:    0.25s;
+  --t-slow:    0.4s;
+
+  /* ── Sacred texts reader ── */
+  --reader-bg:      #FAF7F2;
+  --reader-text:    #2C2416;
+  --sanskrit-color: #4338CA;
+  --reader-max-w:   680px;
+  --reader-lh:      1.9;
+}
+
+/* Dark mode — reader context */
+@media (prefers-color-scheme: dark) {
+  .reader-page {
+    --reader-bg:      #12100E;
+    --reader-text:    #E8E0D5;
+    --sanskrit-color: #818CF8;
+  }
+}
