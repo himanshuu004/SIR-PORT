@@ -17,7 +17,7 @@ const STYLES = `
   .ct-faq-btn:hover { background:rgba(28,25,23,0.02); }
   .ct-explore { text-decoration:none; display:flex; align-items:center; gap:14px; padding:18px 22px; background:#fff; border-radius:14px; border:1px solid rgba(28,25,23,0.07); transition:all 0.25s; color:inherit; position:relative; overflow:hidden; }
   .ct-explore:hover { transform:translateY(-2px); box-shadow:0 8px 28px rgba(0,0,0,0.07); }
-  @media(max-width:640px) { .two-col-form{ grid-template-columns:1fr!important; } .two-col-ch{ grid-template-columns:1fr!important; } .three-col{ grid-template-columns:1fr!important; } }
+  @media(max-width:640px) { .two-col-form{ grid-template-columns:1fr!important; } .two-col-ch{ grid-template-columns:1fr!important; } .three-col{ grid-template-columns:repeat(2,minmax(0,1fr))!important; gap:10px!important; } .ct-explore{ padding:14px 16px!important; gap:10px!important; } }
 `;
 
 /* ── Fade ─────────────────────────────────────────────────────────── */

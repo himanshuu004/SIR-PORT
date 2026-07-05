@@ -40,7 +40,7 @@ const STYLES = `
   .footer-link { display:block; font-size:13px; color:rgba(255,255,255,0.5); text-decoration:none; margin-bottom:8px; transition:color 0.2s; }
   .footer-link:hover { color:#5EEAD4; }
   @media(prefers-reduced-motion:reduce){ .fade-wrap{ opacity:1!important; transform:none!important; } }
-  @media(max-width:768px){ .two-col{ grid-template-columns:1fr!important; } }
+  @media(max-width:768px){ .two-col{ grid-template-columns:repeat(2,minmax(0,1fr))!important; gap:14px!important; } .sacred-card{ border-radius:14px!important; } .sacred-card h3{ font-size:15px!important; } }
 `;
 
 /* ── Fade ────────────────────────────────────────────────────────── */

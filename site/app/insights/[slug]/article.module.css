@@ -480,7 +480,10 @@
   margin-top: auto;
 }
 @media (max-width: 860px) {
-  .relatedGrid { grid-template-columns: 1fr; }
+  .relatedGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .relatedCard { padding: 16px; min-height: 150px; }
+  .relatedTitle { font-size: 0.9375rem; }
+  .relatedExcerpt { font-size: 0.8125rem; }
 }
 
 /* ── Responsive ── */

@@ -48,7 +48,7 @@ interface AnimatedReviewCardsProps {
 }
 
 const cardVariants = cva(
-  "absolute h-[340px] w-[300px] overflow-hidden rounded-2xl bg-background sm:w-[350px] md:h-[300px] md:w-[550px]",
+  "absolute h-[320px] w-[min(calc(100vw-2rem),300px)] overflow-hidden rounded-2xl bg-background sm:h-[340px] sm:w-[350px] md:h-[300px] md:w-[550px]",
   {
     variants: {
       theme: {
@@ -194,7 +194,7 @@ export const AnimatedReviewCards = ({
   return (
     <div
       className={cn(
-        "not-prose relative flex h-[420px] w-full items-center justify-center md:h-[380px]",
+        "not-prose relative flex h-[380px] w-full items-center justify-center sm:h-[420px] md:h-[380px]",
         classNames?.container
       )}
       role="region"

@@ -50,7 +50,7 @@ export default function Nav() {
 
   return (
     <div
-      className="fixed inset-x-0 top-4 z-50 flex justify-center px-[4%] sm:top-6 pointer-events-none"
+      className="fixed inset-x-0 top-2 z-50 flex justify-center px-2.5 sm:px-[4%] sm:top-6 pointer-events-none"
       role="presentation"
     >
     <motion.nav
@@ -62,7 +62,7 @@ export default function Nav() {
       transition={{ duration: 0.55, ease: EASE, delay: 0.1 }}
     >
       <motion.div
-        className={`flex items-center justify-between px-6 sm:px-8 py-4 rounded-[20px] backdrop-blur-md border ${
+        className={`flex items-center justify-between px-3 py-2 sm:px-8 sm:py-4 rounded-[14px] sm:rounded-[20px] backdrop-blur-md border ${
           solid
             ? "bg-white/90 border-gray-200/80 text-[#3B5B54]"
             : "bg-white/10 border-white/10 text-white"
@@ -82,7 +82,7 @@ export default function Nav() {
             }`}
             aria-label="Purushottam — Home"
           >
-            <span className="block font-serif italic font-semibold text-[1.6rem] sm:text-[1.85rem] tracking-[-0.03em] leading-none">
+            <span className="block font-serif italic font-semibold text-[1.125rem] min-[360px]:text-[1.25rem] sm:text-[1.85rem] tracking-[-0.03em] leading-none">
               Purushottam
             </span>
           </Link>
@@ -105,7 +105,7 @@ export default function Nav() {
           ))}
         </div>
 
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <motion.button
             type="button"
             className={`hidden sm:flex w-11 h-11 rounded-full items-center justify-center transition-colors ${
@@ -136,7 +136,7 @@ export default function Nav() {
           </motion.div>
           <motion.button
             type="button"
-            className={`lg:hidden flex items-center justify-center w-11 h-11 rounded-full transition-colors ${
+            className={`lg:hidden flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 rounded-full transition-colors ${
               solid ? "hover:bg-gray-100" : "hover:bg-white/10"
             }`}
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -153,7 +153,7 @@ export default function Nav() {
                 transition={{ duration: 0.2 }}
                 className="flex items-center justify-center"
               >
-                {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+                {mobileOpen ? <X className="w-4 h-4 sm:w-5 sm:h-5" /> : <Menu className="w-4 h-4 sm:w-5 sm:h-5" />}
               </motion.span>
             </AnimatePresence>
           </motion.button>
@@ -163,7 +163,7 @@ export default function Nav() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
-            className={`lg:hidden mt-2 backdrop-blur-md rounded-[16px] px-4 py-4 flex flex-col gap-1 border ${
+            className={`lg:hidden mt-1.5 sm:mt-2 backdrop-blur-md rounded-[12px] sm:rounded-[16px] px-3 py-3 sm:px-4 sm:py-4 flex flex-col gap-0.5 sm:gap-1 border ${
               solid
                 ? "bg-white/95 border-gray-200/80"
                 : "bg-white/10 border-white/10"
@@ -182,7 +182,7 @@ export default function Nav() {
               >
                 <Link
                   href={link.href}
-                  className={`px-4 py-2.5 text-sm font-medium rounded-xl transition-colors block ${
+                  className={`px-3 py-2 sm:px-4 sm:py-2.5 text-xs sm:text-sm font-medium rounded-lg sm:rounded-xl transition-colors block ${
                     pathname === link.href
                       ? solid
                         ? "text-[#3B5B54] bg-[#A9C7BE]/25"

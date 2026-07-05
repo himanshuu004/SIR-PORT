@@ -33,8 +33,7 @@ const STYLES = `
   .pg-stat { background:var(--warm-white); border-radius:14px; padding:24px; border:1px solid rgba(13,13,13,0.07); text-align:center; }
   .pg-explore { text-decoration:none; display:flex; align-items:center; gap:14px; padding:20px 24px; background:#fff; border-radius:14px; border:1px solid rgba(13,13,13,0.07); transition:all 0.25s; color:inherit; position:relative; overflow:hidden; }
   .pg-explore:hover { transform:translateY(-2px); box-shadow:0 10px 32px rgba(0,0,0,0.07); }
-  @media(max-width:768px) { .two-col{ grid-template-columns:1fr!important; } .four-col{ grid-template-columns:1fr 1fr!important; } }
-  @media(max-width:480px) { .four-col{ grid-template-columns:1fr!important; } }
+  @media(max-width:768px) { .two-col{ grid-template-columns:repeat(2,minmax(0,1fr))!important; gap:12px!important; } .four-col{ grid-template-columns:repeat(2,minmax(0,1fr))!important; gap:10px!important; } .pg-stat{ padding:16px 12px!important; } }
 `;
 
 /* ── Fade ─────────────────────────────────────────────────────────── */

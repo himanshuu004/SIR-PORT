@@ -28,7 +28,7 @@ const STYLES = `
   .lc-explore { text-decoration:none; display:flex; align-items:center; gap:14px; padding:20px 24px; background:#fff; border-radius:14px; border:1px solid rgba(13,13,13,0.07); transition:all 0.25s; color:inherit; position:relative; overflow:hidden; }
   .lc-explore:hover { transform:translateY(-2px); box-shadow:0 10px 32px rgba(0,0,0,0.07); }
   .lc-track-row { border:1px solid rgba(13,13,13,0.08); border-radius:16px; overflow:hidden; background:#fff; transition:border-color 0.25s; }
-  @media(max-width:768px) { .two-col{ grid-template-columns:1fr!important; } .three-col{ grid-template-columns:1fr!important; } .stat-row{ grid-template-columns:1fr 1fr!important; } }
+  @media(max-width:768px) { .two-col{ grid-template-columns:repeat(2,minmax(0,1fr))!important; gap:12px!important; } .three-col{ grid-template-columns:repeat(2,minmax(0,1fr))!important; gap:12px!important; } .stat-row{ grid-template-columns:repeat(2,minmax(0,1fr))!important; } }
 `;
 
 /* ── Fade ─────────────────────────────────────────────────────────── */

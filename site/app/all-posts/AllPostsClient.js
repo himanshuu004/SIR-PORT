@@ -80,10 +80,14 @@ const STYLES = `
   .ap-cat-count { font-size:11px; font-weight:600; color:var(--text-muted); padding:2px 8px; border-radius:10px; background:rgba(13,13,13,0.06); }
   .ap-cat-item.active .ap-cat-count { background:color-mix(in srgb, var(--accent, var(--gold)) 14%, transparent); color:var(--accent, var(--gold)); }
   @media(max-width:900px){
-    .ap-layout { grid-template-columns: 1fr; gap:20px; }
+    .ap-layout { grid-template-columns: 1fr; gap:20px; padding:20px 1rem 60px; }
     .ap-sidebar { position:static; max-height:none; order:2; padding:0; }
   }
-  @media(max-width:640px){ .ap-row { flex-direction:column; gap:8px; } }
+  @media(max-width:640px){
+    .ap-row { flex-direction:column; gap:8px; padding:12px 14px; }
+    .ap-sidebar-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px; }
+    .ap-cat-item { padding:10px; font-size:12.5px; min-height:44px; }
+  }
 `;
 
 /* ── Article row ─────────────────────────────────────────────────── */

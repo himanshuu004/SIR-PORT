@@ -49,7 +49,7 @@ const STYLES = `
   .footer-link { display: block; font-size: 13px; color: rgba(255,255,255,0.5); text-decoration: none; margin-bottom: 8px; transition: color 0.2s; }
   .footer-link:hover { color: #5EEAD4; }
   @media (prefers-reduced-motion: reduce) { .fade-wrapper { opacity: 1 !important; transform: none !important; } }
-  @media (max-width: 768px) { .three-col { grid-template-columns: 1fr !important; } .two-col { grid-template-columns: 1fr !important; } }
+  @media (max-width: 768px) { .three-col { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 12px !important; } .two-col { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 12px !important; } }
   @media (max-width: 1024px) and (min-width: 769px) { .three-col { grid-template-columns: 1fr 1fr !important; } }
 `;
 

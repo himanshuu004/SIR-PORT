@@ -7,6 +7,16 @@ import Fade from "../../components/Fade";
 import Icon from "../../components/Icon";
 import { playfair, eyebrowSt, containerStyle } from "../../lib/theme";
 
+const CARD_GRID_STYLES = `
+  .reading-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+  @media (max-width: 768px) {
+    .reading-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .reading-card-grid a { padding: 16px !important; border-radius: 14px !important; }
+    .reading-card-grid h2 { font-size: 15px !important; }
+    .reading-card-grid p { font-size: 12.5px !important; line-height: 1.55 !important; }
+  }
+`;
+
 const FILTERS = [
   { key: "all",      label: "All",      icon: "bookText",   color: "var(--cyan)" },
   { key: "books",    label: "Books",    icon: "book",       color: "#D946EF", tag: "r-book" },
@@ -48,6 +58,7 @@ export default function ReadingClient({ posts = [] }) {
 
   return (
     <div style={{ fontFamily: "var(--font-sans)", color: "var(--charcoal)", background: "var(--warm-white)", minHeight: "100vh", overflowX: "hidden" }}>
+      <style>{CARD_GRID_STYLES}</style>
       <Nav />
 
       {/* Hero */}
@@ -111,7 +122,7 @@ export default function ReadingClient({ posts = [] }) {
               </p>
             </div>
           ) : (
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 24 }}>
+            <div className="reading-card-grid">
               {visible.map((post, i) => {
                 const accent = ACCENT_BY_TYPE[post._type] || "#D946EF";
                 const typeLabel = FILTERS.find((f) => f.key === post._type)?.label || "Reading";

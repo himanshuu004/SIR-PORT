@@ -41,8 +41,12 @@ const STYLES = `
   @media (max-width: 768px) {
     .desktop-nav { display: none !important; }
     .mobile-menu-btn { display: flex !important; }
-    .three-col { grid-template-columns: 1fr !important; }
-    .two-col { grid-template-columns: 1fr !important; }
+    .three-col { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 14px !important; }
+    .three-col > * { min-width: 0; }
+    .three-col h3 { font-size: 16px !important; }
+    .three-col p { font-size: 13px !important; }
+    .two-col { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 14px !important; }
+    .two-col-stack { grid-template-columns: 1fr !important; }
     .footer-layout { flex-direction: column !important; }
     .footer-cols { flex-direction: column !important; gap: 24px !important; }
     .newsletter-row { flex-direction: column !important; }
@@ -221,7 +225,7 @@ function WhatIBelieve() {
     <section style={{ background: "var(--cream)", padding: "80px max(1.5rem, calc((100% - 1120px)/2))" }}>
       <div style={containerStyle}>
         <Fade><SectionHeader eyebrow="How I Think" heading="Operating Principles" align="center" /></Fade>
-        <div className="two-col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, alignItems: "stretch" }}>
+        <div className="two-col-stack" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, alignItems: "stretch" }}>
           {BELIEFS.map((belief, i) => {
             const accent = BELIEF_ACCENTS[i % BELIEF_ACCENTS.length];
             return (

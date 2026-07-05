@@ -152,10 +152,12 @@ const STYLES = `
     .mm-row-meta { padding: 14px 14px 14px 0; gap: 8px; }
     .mm-row-body { padding: 14px; }
     .mm-time { display: none; }
+    .mm-intro, .mm-other-intro { padding-left: 0 !important; }
+    .mm-cta-wrap { padding: 24px 20px !important; }
   }
   @media (max-width: 768px) {
-    .three-col { grid-template-columns: 1fr !important; }
-    .two-col   { grid-template-columns: 1fr !important; }
+    .three-col { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 12px !important; }
+    .two-col   { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 12px !important; }
   }
   @media (max-width: 1024px) and (min-width: 769px) {
     .three-col { grid-template-columns: 1fr 1fr !important; }
@@ -424,7 +426,7 @@ function SectionBlock({ section, background }) {
           </div>
 
           {section.intro && (
-            <p style={{
+            <p className="mm-intro" style={{
               fontSize: 16.5,
               lineHeight: 1.8,
               color: "var(--text-body)",
@@ -487,7 +489,7 @@ function OtherEssays({ posts }) {
               <span style={{ fontSize: 12, color: "var(--text-muted)" }}>· {posts.length} posts</span>
             </div>
           </div>
-          <p style={{
+          <p className="mm-other-intro" style={{
             fontSize: 14.5,
             color: "var(--text-muted)",
             margin: "0 0 24px",
@@ -544,7 +546,7 @@ export default function MindAndMachineClient({ sections = [], generalPosts = [] 
         <hr className="mm-divider" />
         <div style={{ ...containerStyle, paddingTop: 56, paddingBottom: 56 }}>
           <Fade>
-            <div style={{
+            <div className="mm-cta-wrap" style={{
               background: "linear-gradient(135deg, #0A1220 0%, #0F1A2E 50%, #1B2A4A 100%)",
               border: "1px solid rgba(99,102,241,0.18)",
               borderRadius: 16,

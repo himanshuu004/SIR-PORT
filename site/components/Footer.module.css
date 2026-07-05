@@ -418,13 +418,35 @@
 
 @media (max-width: 640px) {
   .inner {
-    padding: 48px 20px 28px;
+    padding: 48px 16px 28px;
   }
 
   .grid {
-    grid-template-columns: 1fr;
-    gap: 32px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 16px;
     margin-bottom: 36px;
+  }
+
+  .brand {
+    grid-column: 1 / -1;
+  }
+
+  .colTitle {
+    font-size: 0.8125rem;
+  }
+
+  .linkList,
+  .contactList {
+    font-size: 0.875rem;
+  }
+
+  .socialGrid {
+    gap: 8px;
+  }
+
+  .socialIcon {
+    width: 40px;
+    height: 40px;
   }
 
   .watermarkText {

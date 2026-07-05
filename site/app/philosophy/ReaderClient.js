@@ -130,10 +130,14 @@ function buildStyles(C) {
     }
 
     @media(max-width:900px){
-      .chapter-grid-3{ grid-template-columns:repeat(2,1fr) !important; }
+      .chapter-grid-3{ grid-template-columns:repeat(2,minmax(0,1fr)) !important; gap:14px !important; }
     }
     @media(max-width:560px){
-      .chapter-grid-3{ grid-template-columns:1fr !important; }
+      .chapter-grid-3{ grid-template-columns:repeat(2,minmax(0,1fr)) !important; gap:10px !important; }
+      .rc-chapter-card h3{ font-size:14px !important; }
+      .rc-chapter-card .rc-pill{ font-size:10px !important; }
+      .rc-chapter-card > div:first-child{ height:110px !important; }
+      .rc-chapter-card > div:last-child{ padding:12px 14px 14px !important; }
       .rc-footer-nav{ padding:10px 16px; }
     }
   `;
