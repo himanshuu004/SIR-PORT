@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Nav from "../../../components/Nav";
-import Footer from "../../../components/Footer";
-import NewsletterCTA from "../../../components/NewsletterCTA";
+import BottomSection from "../../../components/BottomSection";
 import { getPostBySlug, getRelatedPosts } from "../../../lib/ghost";
 import { getFallbackPostBySlug, getRelatedFallbackPosts } from "../../../lib/fallbackPosts";
 import ArticleClient from "./ArticleClient";
@@ -116,8 +115,7 @@ export default async function ArticlePage({ params }) {
           ghostKey={process.env.GHOST_KEY || ""}
         />
       </main>
-      <NewsletterCTA variant="mind" />
-      <Footer />
+      <BottomSection variant="mind" />
     </>
   );
 }

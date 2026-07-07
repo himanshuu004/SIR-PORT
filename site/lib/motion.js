@@ -77,9 +77,9 @@ export const cardHover = {
 };
 
 export const pageEnter = {
-  initial: { opacity: 0, y: 18 },
+  initial: { opacity: 1, y: 14 },
   animate: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -12 },
+  exit: { opacity: 1, y: -8 },
 };
 
 export const VARIANTS = {

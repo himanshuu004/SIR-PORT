@@ -305,6 +305,7 @@ function Pill({ label }) {
 const CARD_ACCENT_COLORS = ["#D9EAFB", "#FBE1C4", "#E3DBFB", "#D2F3E1"];
 
 const HERO_FALLBACK_IMAGE = getPageHeroBackground("home");
+const HERO_BG_VIDEO = "/Background/BG_VIDEO.mp4";
 
 function HeroBookCard({ className, prefersReduced, compact = false, horizontal = false, featured = false, fluid = false }) {
   return (
@@ -517,7 +518,6 @@ function Hero({ posts }) {
   const next = () => setIdx((i) => (i + 1) % slides.length);
 
   const post = slides[idx];
-  const bgImage = post?.feature_image ?? HERO_FALLBACK_IMAGE;
   const heroEase = [0.16, 1, 0.3, 1];
 
   return (
@@ -526,14 +526,26 @@ function Hero({ posts }) {
         className="absolute inset-0"
         style={prefersReduced ? undefined : { y: bgY, scale: 1.08 }}
       >
-        <Image
-          src={bgImage}
-          alt=""
-          fill
-          className="object-cover object-center"
-          priority
-          sizes="100vw"
-        />
+        {prefersReduced ? (
+          <Image
+            src={HERO_FALLBACK_IMAGE}
+            alt=""
+            fill
+            className="object-cover object-center"
+            priority
+            sizes="100vw"
+          />
+        ) : (
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover object-center"
+          >
+            <source src={HERO_BG_VIDEO} type="video/mp4" />
+          </video>
+        )}
       </motion.div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/5 to-black/30" />
       <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/35 to-transparent pointer-events-none" />
@@ -592,7 +604,7 @@ function Hero({ posts }) {
               ) : (
                 <>
                   <span className={`block font-sans font-semibold text-[clamp(18px,4.5vw,70px)] tracking-tight leading-[1.1] ${hm.titleSans}`}>
-                    Bridging algorithmic intelligence with
+                    Bridging Algorithmic Intelligence with
                   </span>
                   <span className={`block font-serif italic text-[clamp(22px,5.8vw,96px)] leading-[1.05] sm:mt-2 ${hm.titleSerif}`}>
                     Indian governance

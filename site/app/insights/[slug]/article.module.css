@@ -16,7 +16,6 @@
 
 /* ── Hero ── */
 .hero {
-  background: var(--grad-navy);
   position: relative;
   overflow: hidden;
   padding-top: 120px;

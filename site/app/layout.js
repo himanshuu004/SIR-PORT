@@ -103,7 +103,7 @@ export default async function RootLayout({ children }) {
   if (isProtected) {
     if (config.maintenanceMode) {
       return (
-        <html lang="en" className={`${playfairDisplay.variable} ${sourceSans.variable}`}>
+        <html lang="en" data-scroll-behavior="smooth" className={`${playfairDisplay.variable} ${sourceSans.variable}`}>
           <head>
             <style dangerouslySetInnerHTML={{ __html: themeStyle }} />
           </head>
@@ -117,7 +117,7 @@ export default async function RootLayout({ children }) {
   }
 
   return (
-    <html lang="en" className={`${playfairDisplay.variable} ${sourceSans.variable}`}>
+    <html lang="en" data-scroll-behavior="smooth" className={`${playfairDisplay.variable} ${sourceSans.variable}`}>
       <head>
         <style dangerouslySetInnerHTML={{ __html: themeStyle }} />
       </head>

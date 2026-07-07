@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import Nav from "../../components/Nav";
-import Footer from "../../components/Footer";
-import NewsletterCTA from "../../components/NewsletterCTA";
+import BottomSection from "../../components/BottomSection";
+import HeroBackground from "../../components/HeroBackground";
 import { T, playfair, eyebrowSt, containerStyle } from "../../lib/theme";
 
 /* ── Dynamic CSS (accent colour injected) ────────────────────────── */
@@ -151,10 +151,10 @@ function Hero({ data, view, chapter, entry, COLOR, onBack, onBackToChapters }) {
 
   return (
     <header style={{
-      background: `linear-gradient(165deg, ${T.navy} 0%, #1a1035 55%, var(--navy-light) 100%)`,
       position: "relative", overflow: "hidden",
       paddingTop: 110, paddingBottom: 60,
     }}>
+      <HeroBackground page="philosophy" />
       {/* dot grid */}
       <div style={{ position:"absolute", inset:0, opacity:0.03,
         backgroundImage:`radial-gradient(circle,${COLOR}cc 1px,transparent 1px)`,
@@ -573,7 +573,27 @@ function VerseDetail({ chapter, entry, data, COLOR, allEntries, entryIdx, onNav 
 }
 
 /* ── Main Export ────────────────────────────────────────────────── */
-export default function ReaderClient({ data }) {
+function ReaderLoading({ bookSlug }) {
+  const label = bookSlug === "geeta" ? "Bhagavad Gita" : "Patanjali Yoga Sutras";
+
+  return (
+    <div style={{ fontFamily: "var(--font-sans)", color: T.charcoal, background: T.warmWhite, minHeight: "100vh" }}>
+      <Nav />
+      <header style={{ position: "relative", overflow: "hidden", paddingTop: 110, paddingBottom: 60 }}>
+        <HeroBackground page="philosophy" />
+        <div style={{ maxWidth: 900, margin: "0 auto", padding: "0 1.5rem", position: "relative", zIndex: 1 }}>
+          <span style={{ ...eyebrowSt, color: "#8B5CF6" }}>Sacred Texts · Interactive Reader</span>
+          <h1 style={{ ...playfair, fontSize: "clamp(28px,3.8vw,46px)", color: "#fff", lineHeight: 1.2, margin: "14px 0 0" }}>
+            {label}
+          </h1>
+          <p style={{ fontSize: 16, color: "rgba(255,255,255,0.55)", marginTop: 14 }}>Loading commentary…</p>
+        </div>
+      </header>
+    </div>
+  );
+}
+
+function ReaderShell({ data }) {
   const COLOR = data.color;
   const [view, setView] = useState("chapters");
   const [chapterIdx, setChapterIdx] = useState(null);
@@ -624,8 +644,49 @@ export default function ReaderClient({ data }) {
         )}
       </main>
 
-      {view !== "detail" && <NewsletterCTA variant="mind" />}
-      <Footer />
+      <BottomSection variant="mind" showNewsletter={view !== "detail"} />
     </div>
   );
+}
+
+export default function ReaderClient({ bookSlug }) {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    fetch(`/api/sacred-texts/${bookSlug}`)
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load");
+        return res.json();
+      })
+      .then((json) => {
+        if (!cancelled) setData(json);
+      })
+      .catch(() => {
+        if (!cancelled) setError(true);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [bookSlug]);
+
+  if (error) {
+    return (
+      <div style={{ fontFamily: "var(--font-sans)", color: T.charcoal, background: T.warmWhite, minHeight: "100vh" }}>
+        <Nav />
+        <main style={{ maxWidth: 560, margin: "120px auto", padding: "0 1.5rem", textAlign: "center" }}>
+          <h1 style={{ ...playfair, fontSize: 28, marginBottom: 12 }}>Unable to load reader</h1>
+          <p style={{ color: "#78716C", marginBottom: 20 }}>Please refresh the page or try again in a moment.</p>
+          <a href="/philosophy" style={{ color: "#4338CA", fontWeight: 600 }}>← Back to Philosophy</a>
+        </main>
+      </div>
+    );
+  }
+
+  if (!data) return <ReaderLoading bookSlug={bookSlug} />;
+
+  return <ReaderShell data={data} />;
 }

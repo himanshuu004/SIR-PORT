@@ -1,7 +1,8 @@
 "use client";
 import { useState, useMemo, useRef, useEffect } from "react";
 import Nav from "../../components/Nav";
-import Footer from "../../components/Footer";
+import BottomSection from "../../components/BottomSection";
+import HeroBackground from "../../components/HeroBackground";
 import Fade from "../../components/Fade";
 import Reveal from "../../components/Reveal";
 import { Stagger, StaggerItem } from "../../components/Stagger";
@@ -220,8 +221,9 @@ export default function AllPostsClient({ posts = [], usingFallback = false }) {
       <Nav />
 
       {/* ── Header ── */}
-      <header style={{ background: "linear-gradient(165deg, var(--navy) 0%, var(--navy-light) 100%)", paddingTop: 110, paddingBottom: 56 }}>
-        <div style={{ maxWidth: 900, margin: "0 auto", padding: "0 1.5rem" }}>
+      <header style={{ position: "relative", overflow: "hidden", paddingTop: 110, paddingBottom: 56 }}>
+        <HeroBackground page="all-posts" />
+        <div style={{ maxWidth: 900, margin: "0 auto", padding: "0 1.5rem", position: "relative", zIndex: 1 }}>
           <Reveal delay={0.1}>
           <div style={{ fontSize: 11, fontWeight: 600, color: "#14B8A6", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 10 }}>
             Content Library
@@ -371,7 +373,7 @@ export default function AllPostsClient({ posts = [], usingFallback = false }) {
         </div>
 
       </main>
-      <Footer />
+      <BottomSection variant="general" />
     </div>
   );
 }

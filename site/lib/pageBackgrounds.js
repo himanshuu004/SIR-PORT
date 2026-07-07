@@ -15,6 +15,10 @@ export const PAGE_HERO_BACKGROUNDS = {
   "the-late-compiler": "/Background/3.jpg",
   about: "/Background/peakpx.jpg",
   contact: "/Background/1.jpg",
+  media: "/Background/1.jpg",
+  reading: "/Background/2.jpg",
+  "all-posts": "/Background/peakpx.jpg",
+  insights: "/Background/2.jpg",
 };
 
 export function getPageHeroBackground(page) {

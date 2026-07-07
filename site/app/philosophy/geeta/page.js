@@ -1,5 +1,4 @@
 import ReaderClient from "../ReaderClient";
-import rawData from "../../../data/sacred/geeta_data.json";
 
 export const metadata = {
   title: "Bhagavad Gita — Interactive Commentary",
@@ -16,37 +15,6 @@ export const metadata = {
   alternates: { canonical: "https://basavapurushottam.com/philosophy/geeta" },
 };
 
-function normalise(raw) {
-  return {
-    bookTitle:    "Bhagavad Gita",
-    bookSubtitle: "18 Chapters · 700 Verses",
-    bookSlug:     "geeta",
-    chapterLabel: "Chapter",
-    entryLabel:   "Verse",
-    color:        "#4338CA",   // Indigo
-    icon:         "🪷",
-    description:
-      "The eternal dialogue between Arjuna and Krishna on the battlefield of Kurukshetra — a timeless guide to duty, action, consciousness, and the nature of the Self.",
-    chapters: raw.chapters.map((ch) => ({
-      num:          ch.chapter,
-      name:         ch.name,
-      image:        ch.image || null,
-      totalEntries: ch.total_verse_entries,
-      entries: ch.verses.map((v) => ({
-        label:          v.verse,
-        start:          v.verse_start,
-        end:            v.verse_end,
-        sanskrit:       v.sanskrit       || "",
-        transliteration:v.transliteration|| "",
-        wordMeanings:   v.word_meanings  || "",
-        commentary:     v.commentary     || "",
-        available:      true,
-      })),
-    })),
-  };
-}
-
 export default function GeetaPage() {
-  const data = normalise(rawData);
-  return <ReaderClient data={data} />;
+  return <ReaderClient bookSlug="geeta" />;
 }

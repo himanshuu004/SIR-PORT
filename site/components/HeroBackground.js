@@ -5,7 +5,7 @@ export default function HeroBackground({ page, overlay = 0.55 }) {
   const src = getPageHeroBackground(page);
 
   return (
-    <>
+    <div className="absolute inset-0 z-0" aria-hidden="true">
       <Image
         src={src}
         alt=""
@@ -16,8 +16,7 @@ export default function HeroBackground({ page, overlay = 0.55 }) {
       />
       <div
         style={{ position: "absolute", inset: 0, background: `rgba(0,0,0,${overlay})` }}
-        aria-hidden="true"
       />
-    </>
+    </div>
   );
 }

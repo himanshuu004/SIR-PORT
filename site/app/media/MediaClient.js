@@ -1,8 +1,8 @@
 "use client";
 import { useState, useMemo, useEffect } from "react";
 import Nav from "../../components/Nav";
-import Footer from "../../components/Footer";
-import NewsletterCTA from "../../components/NewsletterCTA";
+import BottomSection from "../../components/BottomSection";
+import HeroBackground from "../../components/HeroBackground";
 import Fade from "../../components/Fade";
 import Icon from "../../components/Icon";
 import { playfair, eyebrowSt, containerStyle } from "../../lib/theme";
@@ -58,7 +58,8 @@ export default function MediaClient({ posts = [] }) {
       <Nav />
 
       {/* Hero */}
-      <section style={{ background: "linear-gradient(160deg, var(--navy) 0%, var(--navy-light) 100%)", padding: "140px max(1.5rem, calc((100% - 1280px)/2)) 90px", position: "relative", overflow: "hidden" }}>
+      <section style={{ padding: "140px max(1.5rem, calc((100% - 1280px)/2)) 90px", position: "relative", overflow: "hidden" }}>
+        <HeroBackground page="media" />
         <div style={{ position: "absolute", inset: 0, backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.025) 1px, transparent 0)", backgroundSize: "48px 48px" }} aria-hidden="true" />
         <div style={{ maxWidth: 800, position: "relative", zIndex: 1 }}>
           <span style={{ ...eyebrowSt, letterSpacing: "0.12em", display: "block", marginBottom: 20 }}>In the Media</span>
@@ -161,8 +162,7 @@ export default function MediaClient({ posts = [] }) {
         </div>
       </section>
 
-      <NewsletterCTA variant="general" />
-      <Footer />
+      <BottomSection variant="general" />
     </div>
   );
 }
